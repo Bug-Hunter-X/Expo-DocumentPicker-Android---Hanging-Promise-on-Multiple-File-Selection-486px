@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  Sometimes, the promise returned by DocumentPicker.getDocumentAsync() never resolves, leading to a hanging application. This is particularly noticeable when selecting multiple files. The Expo documentation and troubleshooting steps don't provide a solution for this specific scenario.
